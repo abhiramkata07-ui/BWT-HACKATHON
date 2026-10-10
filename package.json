@@ -1,0 +1,16 @@
+{
+  "name": "fittrack-monorepo",
+  "version": "1.0.0",
+  "description": "FitTrack - Fitness Activity Dashboard (Full MERN Stack)",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "start": "node backend/src/server.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["mern", "fitness", "dashboard", "hackathon"],
+  "author": "Abhiram",
+  "license": "ISC"
+}
